@@ -82,40 +82,13 @@ The database consists of the following tables:
   - rows_processed
   - created_at
 
-## Prerequisites
-
-- **Go**: Version 1.23 or later
-- **PostgreSQL**: Version 14 or later
-- **Docker**: Version 20.10 or later
-- **Docker Compose**: Version 1.29.2 or later
-- **Git**: Version 2.25 or later
-- **CSV File**: Sales data in CSV format (sample provided in data/sales.csv)
-
-## Environment Variables
-
-Copy the example environment file:
-
-```bash
-cp .env.example .env
-```
-
-Configure the following variables:
-
-```
-DB_HOST=postgres
-DB_PORT=5432
-DB_USER=postgres
-DB_PASSWORD=postgres
-DB_NAME=sales_data
-SERVER_PORT=8080
-CSV_PATH=/data/sales.csv
 ```
 
 ## Building and Running with Docker
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/lumel.git
+   git clone git@github.com:sanjaykishor/lumel.git
    cd lumel
    ```
 
